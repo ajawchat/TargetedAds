@@ -1,0 +1,17 @@
+{
+  "Coupons" : [
+	{
+	 "CouponId": "C1",
+	 "dish":"Dish1",
+	 "OP": "$13",
+	 "RP": "$9"
+	},
+	{
+	  "CouponId": "C2",
+	  "dish":"Dish2",
+	   "OP": "$10",
+	  "RP": "$5"
+	}
+	],
+  "Specality_dish": "Dish1"
+}

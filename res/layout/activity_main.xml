@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget56"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bb">
+
+    <Button
+        android:id="@+id/btn_Lists"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="405dp"
+        android:gravity="center"
+        android:hint="@string/btn_Lists"
+        android:onClick="displayList"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPreference"
+        android:layout_width="123dp"
+        android:layout_height="33dp"
+        android:layout_x="6dp"
+        android:layout_y="323dp"
+        android:gravity="left"
+        android:text="Preference"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTimings"
+        android:layout_width="93dp"
+        android:layout_height="33dp"
+        android:layout_x="4dp"
+        android:layout_y="249dp"
+        android:gravity="left"
+        android:text="Open Hrs"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGrpTimings"
+        android:layout_width="201dp"
+        android:layout_height="42dp"
+        android:layout_x="112dp"
+        android:layout_y="239dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Now" />
+
+        <RadioButton
+            android:id="@+id/radio_later"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Later" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGrpDistance"
+        android:layout_width="201dp"
+        android:layout_height="42dp"
+        android:layout_x="108dp"
+        android:layout_y="162dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_nearby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/nearby" />
+
+        <RadioButton
+            android:id="@+id/radio_entire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/entire" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner_sortBy"
+        android:layout_width="198dp"
+        android:layout_height="37dp"
+        android:layout_x="120dp"
+        android:layout_y="94dp" />
+
+    <TextView
+        android:id="@+id/txtSortBy"
+        android:layout_width="93dp"
+        android:layout_height="33dp"
+        android:layout_x="6dp"
+        android:layout_y="100dp"
+        android:gravity="left"
+        android:text="Sort By"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_categories"
+        android:layout_width="198dp"
+        android:layout_height="37dp"
+        android:layout_x="116dp"
+        android:layout_y="33dp" />
+
+    <TextView
+        android:id="@+id/txtCategory"
+        android:layout_width="93dp"
+        android:layout_height="27dp"
+        android:layout_x="6dp"
+        android:layout_y="41dp"
+        android:gravity="left"
+        android:text="Category"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_Maps"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="403dp"
+        android:gravity="center"
+        android:hint="@string/btn_Maps"
+        android:onClick="displayMap"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editPreference"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_x="116dp"
+        android:layout_y="317dp"
+        android:ems="10"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="187dp"
+        android:layout_height="37dp"
+        android:layout_x="104dp"
+        android:layout_y="468dp" />
+
+    <TextView
+        android:id="@+id/txtDistance"
+        android:layout_width="93dp"
+        android:layout_height="33dp"
+        android:layout_x="4dp"
+        android:layout_y="170dp"
+        android:gravity="left"
+        android:text="Distance"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

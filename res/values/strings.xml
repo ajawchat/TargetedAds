@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TargetedAds</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	
+    <string-array name="categories_data">
+        <item>Restaurants</item>
+        <item>Stores</item>
+    </string-array>
+    
+    <string-array name="sortBy_data">
+        <item>Coupons</item>
+        <item>Distance</item>
+        <item>Ratings</item>
+    </string-array>
+    
+    <string name="btn_Maps">Show Map</string>
+    <string name="btn_Lists">Show List</string>
+    <string name="nearby">Nearby</string>
+    <string name="entire">Entire City</string>
+</resources>
